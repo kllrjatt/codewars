@@ -15,3 +15,12 @@ Hope you enjoy it .. Awaiting for Best Practice Codes
 Enjoy Learning !!!
 
 */
+
+var century = function (year) {
+  var x = year / 100;
+  if (Math.floor(x) === x) {
+    return x;
+  } else {
+    return Math.floor(x) + 1;
+  }
+};

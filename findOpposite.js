@@ -9,3 +9,7 @@ Examples:
 -34: 34
 
 */
+
+var findOpposite = function (num) {
+  return (num) * (-1);
+};

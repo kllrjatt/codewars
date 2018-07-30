@@ -11,5 +11,5 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 */
 
 var findSmallestInt = function(args) {
-  return args.sort((function(a, b) { return a - b ;}))[0];
+  return args.sort((function(a, b) { return a - b; }))[0];
 };

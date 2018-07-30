@@ -10,3 +10,8 @@ nthEven(1298734) //=> 2597466
 The input will not be 0.
 
 */
+
+
+var nthEven = function (n) {
+  return (n - 1) * 2;
+};
