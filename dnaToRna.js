@@ -10,15 +10,14 @@ For example:
 DNAtoRNA("GCAT") returns ("GCAU")
 */
 
-function DNAtoRNA(dna) {
+var DNAtoRNA = function(dna) {
   var result = [];
   for (var i = 0; i < dna.length; i = i + 1) {
     if (dna.charAt(i) === 'T') {
-      result.push('U')
+      result.push('U');
+    } else {
+      result.push(dna.charAt(i));
     }
-    else {
-      result.push(dna.charAt(i))
-    };
-  };
-  return result.join('')
+  }
+  return result.join('');
 }; 
